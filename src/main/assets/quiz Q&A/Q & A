@@ -1,0 +1,79 @@
+   1. Which of the following is a software development process model that emphasizes on the iterative and incremental development of software?
+    A. Waterfall model
+    B. Agile model
+    C. Spiral model
+    D. RAD model
+
+Answer: B
+
+   2. Which of the following is a software development methodology that is based on the principles of lean manufacturing and just-in-time production?
+    A. Waterfall model
+    B. Agile model
+    C. Six Sigma
+    D. Kanban
+
+Answer: D
+
+   3. Which of the following is a software testing technique that involves testing the software with a large volume of data to ensure that it can handle the expected workload?
+    A. Load testing
+    B. Regression testing
+    C. Acceptance testing
+    D. System testing
+
+Answer: A
+
+   4. Which of the following is a measure of the complexity of a software system?
+    A. Code coverage
+    B. Cyclomatic complexity
+    C. Coupling
+    D. Cohesion
+
+Answer: B
+
+   5. Which of the following is a software development principle that promotes the separation of the interface from the implementation of a software component?
+    A. Encapsulation
+    B. Inheritance
+    C. Polymorphism
+    D. Abstraction
+
+Answer: D
+
+    6.Which of the following is a software testing technique that involves testing the software with different combinations of inputs to ensure that it can handle various scenarios?
+    A. Load testing
+    B. Integration testing
+    C. Boundary value analysis
+    D. Acceptance testing
+
+Answer: C
+
+   7. Which of the following is a software development methodology that emphasizes on the importance of continuous feedback and collaboration between developers and customers?
+    A. Waterfall model
+    B. Agile model
+    C. RAD model
+    D. Spiral model
+
+Answer: B
+
+   8. Which of the following is a software design pattern that is used to encapsulate a group of individual factories that have a common theme?
+    A. Adapter pattern
+    B. Singleton pattern
+    C. Factory method pattern
+    D. Abstract factory pattern
+
+Answer: D
+
+   9. Which of the following is a software quality attribute that refers to the ease with which a software system can be modified or adapted?
+    A. Portability
+    B. Reliability
+    C. Maintainability
+    D. Usability
+
+Answer: C
+
+    10.Which of the following is a software development technique that involves breaking down a large project into smaller, more manageable parts that can be completed independently?
+    A. Agile development
+    B. Scrum
+    C. Waterfall development
+    D. Divide and conquer
+
+Answer: D

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssessmentActivity">
+
+    <TextView
+        android:id="@+id/email_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/personal_details_section"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:text="Email:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/full_name" />
+
+    <TextView
+        android:id="@+id/assessment_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/personal_details_section"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:text="Assessment Title:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assessment_feedback_section" />
+
+    <TextView
+        android:id="@+id/certificate_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/personal_details_section"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:text="Certificate ID:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assessment_score2" />
+
+    <TextView
+        android:id="@+id/test_completed_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/personal_details_section"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:text="Completion Date:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/certificate_id" />
+
+    <TextView
+        android:id="@+id/assessment_score2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/personal_details_section"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:text="Score (Max 10):"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assessment_title" />
+
+    <ImageView
+        android:id="@+id/app_custom_icon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/personal_details_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_custom_icon"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:text="PERSONAL DETAILS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_custom_icon" />
+
+    <TextView
+        android:id="@+id/assessment_feedback_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_custom_icon"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:text="ASSESSMENT DETAILS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_title" />
+
+    <TextView
+        android:id="@+id/full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/personal_details_section"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:text="Full Name:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personal_details_section" />
+
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/personal_details_section"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="First name"
+        app:layout_constraintStart_toEndOf="@+id/full_name"
+        app:layout_constraintTop_toBottomOf="@+id/personal_details_section" />
+
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_name"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:text="Last name"
+        app:layout_constraintStart_toEndOf="@+id/first_name"
+        app:layout_constraintTop_toBottomOf="@+id/personal_details_section" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/last_name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Email"
+        app:layout_constraintStart_toEndOf="@+id/email_title"
+        app:layout_constraintTop_toBottomOf="@+id/full_name" />
+
+    <TextView
+        android:id="@+id/test_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Not Available"
+        app:layout_constraintStart_toEndOf="@+id/assessment_title"
+        app:layout_constraintTop_toBottomOf="@+id/assessment_feedback_section" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/test_title"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Not Available"
+        app:layout_constraintStart_toEndOf="@+id/assessment_score2"
+        app:layout_constraintTop_toBottomOf="@+id/test_title" />
+
+    <TextView
+        android:id="@+id/test_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/test_title"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Not Available"
+        app:layout_constraintStart_toEndOf="@+id/certificate_id"
+        app:layout_constraintTop_toBottomOf="@+id/score" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Not Available"
+        app:layout_constraintStart_toEndOf="@+id/test_completed_date"
+        app:layout_constraintTop_toBottomOf="@+id/test_id" />
+
+    <Button
+        android:id="@+id/send_certificate_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date"
+        android:layout_centerHorizontal="true"
+        android:text="Email Assessment"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:text="Logout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/test_completed_date" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
